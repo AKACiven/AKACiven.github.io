@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AKACiven&#39;s CES Learning</title>
+  <icon>https://akaciven.github.io/icon.png</icon>
+  <subtitle>学习笔记--主要记录自己学习的过程，以及经过的坑</subtitle>
+  <link href="https://akaciven.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://akaciven.github.io/"/>
+  <updated>2021-07-27T13:12:01.365Z</updated>
+  <id>https://akaciven.github.io/</id>
+  
+  <author>
+    <name>AKACiven</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown 简要笔记</title>
+    <link href="https://akaciven.github.io/2021/07/27/Markdown-Learning-Notes/"/>
+    <id>https://akaciven.github.io/2021/07/27/Markdown-Learning-Notes/</id>
+    <published>2021-07-26T16:32:01.828Z</published>
+    <updated>2021-07-27T13:12:01.365Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1、标题&quot;&gt;&lt;a href=&quot;#1、标题&quot; class=&quot;headerlink&quot; title=&quot;1、标题&quot;&gt;&lt;/a&gt;1、标题&lt;/h2&gt;&lt;h1 id=&quot;我展示的是一级标题&quot;&gt;&lt;a href=&quot;#我展示的是一级标题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://akaciven.github.io/2021/07/25/hello-world/"/>
+    <id>https://akaciven.github.io/2021/07/25/hello-world/</id>
+    <published>2021-07-25T15:46:31.821Z</published>
+    <updated>2021-07-26T16:17:18.097Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

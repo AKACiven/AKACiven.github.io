@@ -6,7 +6,7 @@
   <link href="https://akaciven.github.io/atom.xml" rel="self"/>
   
   <link href="https://akaciven.github.io/"/>
-  <updated>2021-07-27T13:12:01.365Z</updated>
+  <updated>2022-03-09T09:09:07.588Z</updated>
   <id>https://akaciven.github.io/</id>
   
   <author>
@@ -17,11 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>解决VMWare中虚拟机无法连接网络的问题</title>
+    <link href="https://akaciven.github.io/2022/03/09/%E8%A7%A3%E5%86%B3VMWare%E4%B8%AD%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://akaciven.github.io/2022/03/09/%E8%A7%A3%E5%86%B3VMWare%E4%B8%AD%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2022-03-09T08:53:36.000Z</published>
+    <updated>2022-03-09T09:09:07.588Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code&gt;VMWare中所有虚拟机都无法连接网络[https://blog.csdn.net/qq_36408196/article/details/103390303]( &amp;quot;VMware</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>RaspberryPiOS Setup</title>
+    <link href="https://akaciven.github.io/2021/07/28/RaspberryPiOS-Setup/"/>
+    <id>https://akaciven.github.io/2021/07/28/RaspberryPiOS-Setup/</id>
+    <published>2021-07-28T08:42:27.000Z</published>
+    <updated>2021-07-28T08:44:18.329Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Markdown 简要笔记</title>
     <link href="https://akaciven.github.io/2021/07/27/Markdown-Learning-Notes/"/>
     <id>https://akaciven.github.io/2021/07/27/Markdown-Learning-Notes/</id>
-    <published>2021-07-26T16:32:01.828Z</published>
-    <updated>2021-07-27T13:12:01.365Z</updated>
+    <published>2021-07-27T08:42:27.000Z</published>
+    <updated>2022-03-09T09:02:05.312Z</updated>
     
     
       
@@ -34,6 +76,8 @@
     
     
     
+    
+    <category term="from RUNOOB" scheme="https://akaciven.github.io/tags/from-RUNOOB/"/>
     
   </entry>
   

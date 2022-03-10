@@ -6,7 +6,7 @@
   <link href="https://akaciven.github.io/atom.xml" rel="self"/>
   
   <link href="https://akaciven.github.io/"/>
-  <updated>2022-03-09T10:33:14.664Z</updated>
+  <updated>2022-03-10T01:58:47.426Z</updated>
   <id>https://akaciven.github.io/</id>
   
   <author>
@@ -17,18 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>RubyGems镜像无法获取的问题</title>
+    <link href="https://akaciven.github.io/2022/03/10/RubyGems%E9%95%9C%E5%83%8F%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://akaciven.github.io/2022/03/10/RubyGems%E9%95%9C%E5%83%8F%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2022-03-10T01:52:49.000Z</published>
+    <updated>2022-03-10T01:58:47.426Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;国内使用Ruby Gem的镜像往往都是失效的，国内前些年找的Taobao镜像也是失效的，现在需要找的是aliyun镜像。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;查看当前的源source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>解决VMWare中虚拟机无法连接网络的问题</title>
     <link href="https://akaciven.github.io/2022/03/09/%E8%A7%A3%E5%86%B3VMWare%E4%B8%AD%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>https://akaciven.github.io/2022/03/09/%E8%A7%A3%E5%86%B3VMWare%E4%B8%AD%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98/</id>
     <published>2022-03-09T08:53:36.000Z</published>
-    <updated>2022-03-09T10:33:14.664Z</updated>
+    <updated>2022-03-10T01:49:41.282Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;解决VMWare中虚拟机无法连接网络的问题&quot;&gt;&lt;a href=&quot;#解决VMWare中虚拟机无法连接网络的问题&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;p&gt;VMWare中所有虚拟机都无法连接网络&lt;a href title=&quot;VMware</summary>
         
       
     

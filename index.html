@@ -77,6 +77,59 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-RubyGems镜像无法获取的问题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/03/10/RubyGems%E9%95%9C%E5%83%8F%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E7%9A%84%E9%97%AE%E9%A2%98/" class="article-date">
+  <time class="dt-published" datetime="2022-03-10T01:52:49.000Z" itemprop="datePublished">2022-03-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/03/10/RubyGems%E9%95%9C%E5%83%8F%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E7%9A%84%E9%97%AE%E9%A2%98/">RubyGems镜像无法获取的问题</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>国内使用Ruby Gem的镜像往往都是失效的，国内前些年找的Taobao镜像也是失效的，现在需要找的是aliyun镜像。</p>
+<ul>
+<li>查看当前的源source</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gem sources -l</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>移除无法使用的源</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gem sources --remove https://rubygems.org/</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>添加aliyun的源</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gem sources -a https://mirrors.aliyun.com/rubygems/</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://akaciven.github.io/2022/03/10/RubyGems%E9%95%9C%E5%83%8F%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E7%9A%84%E9%97%AE%E9%A2%98/" data-id="cl0kcdbct0005bcv3936chtpt" data-title="RubyGems镜像无法获取的问题" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-解决VMWare中虚拟机无法连接网络的问题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/03/09/%E8%A7%A3%E5%86%B3VMWare%E4%B8%AD%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98/" class="article-date">
@@ -99,13 +152,13 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="解决VMWare中虚拟机无法连接网络的问题"><a href="#解决VMWare中虚拟机无法连接网络的问题" class="headerlink" title="解决VMWare中虚拟机无法连接网络的问题"></a>解决VMWare中虚拟机无法连接网络的问题</h1><p>VMWare中所有虚拟机都无法连接网络<a href title="VMware 虚拟机里连不上网的五种解决方案">https://blog.csdn.net/qq_36408196/article/details/103390303</a>中的第四种成功解决。在虚拟机运行的时候，将虚拟机设置中的网络适配器删除后重新添加，虚拟机就可以链接并使用网络了</p>
+        <p>VMWare中所有虚拟机都无法连接网络<a href title="VMware 虚拟机里连不上网的五种解决方案">https://blog.csdn.net/qq_36408196/article/details/103390303</a>中的第四种成功解决。在虚拟机运行的时候，将虚拟机设置中的网络适配器删除后重新添加，虚拟机就可以链接并使用网络了</p>
 <p><img src="/2022/03/09/%E8%A7%A3%E5%86%B3VMWare%E4%B8%AD%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98/1646816880982.png" alt="虚拟机内"></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://akaciven.github.io/2022/03/09/%E8%A7%A3%E5%86%B3VMWare%E4%B8%AD%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98/" data-id="cl0kbwhlu0005ewv3gwqldlm7" data-title="解决VMWare中虚拟机无法连接网络的问题" class="article-share-link">Share</a>
+      <a data-url="https://akaciven.github.io/2022/03/09/%E8%A7%A3%E5%86%B3VMWare%E4%B8%AD%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98/" data-id="cl0kcdbcu0006bcv328sh1hgv" data-title="解决VMWare中虚拟机无法连接网络的问题" class="article-share-link">Share</a>
       
       
       
@@ -144,7 +197,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://akaciven.github.io/2021/07/28/RaspberryPiOS-Setup/" data-id="cl0kbwhlu0004ewv317t68a9k" data-title="RaspberryPiOS Setup" class="article-share-link">Share</a>
+      <a data-url="https://akaciven.github.io/2021/07/28/RaspberryPiOS-Setup/" data-id="cl0kcdbcr0003bcv3cxb9duvr" data-title="RaspberryPiOS Setup" class="article-share-link">Share</a>
       
       
       
@@ -330,7 +383,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://akaciven.github.io/2021/07/27/Markdown-Learning-Notes/" data-id="cl0kbwhlf0000ewv37zjq09dm" data-title="Markdown 简要笔记" class="article-share-link">Share</a>
+      <a data-url="https://akaciven.github.io/2021/07/27/Markdown-Learning-Notes/" data-id="cl0kcdbcg0000bcv37s5kbsmg" data-title="Markdown 简要笔记" class="article-share-link">Share</a>
       
       
       
@@ -383,7 +436,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://akaciven.github.io/2021/07/25/hello-world/" data-id="cl0kbwhlt0003ewv37ky273fj" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="https://akaciven.github.io/2021/07/25/hello-world/" data-id="cl0kcdbcs0004bcv38ht813ko" data-title="Hello World" class="article-share-link">Share</a>
       
       
       
@@ -438,6 +491,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2022/03/10/RubyGems%E9%95%9C%E5%83%8F%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E7%9A%84%E9%97%AE%E9%A2%98/">RubyGems镜像无法获取的问题</a>
+          </li>
         
           <li>
             <a href="/2022/03/09/%E8%A7%A3%E5%86%B3VMWare%E4%B8%AD%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98/">解决VMWare中虚拟机无法连接网络的问题</a>
